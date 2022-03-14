@@ -38,7 +38,7 @@ margin:0px 20px;
 }
 .nav-wrap{
    padding-top:10px;
-   margin:auto;
+   
    width:90%;
    margin:auto;
 }
@@ -529,8 +529,17 @@ margin-top:10%;
 
 @media only screen and (max-width: 900px) {
    
-
-    
+    .main-wrapper{
+        width:100%;
+        margin:auto;
+     
+    }
+    .nav-wrap{
+        padding-top:10px;
+        margin:auto;
+        width:100%;
+        
+     }
 
     .content-box h5{
         color:
@@ -591,6 +600,7 @@ margin-top:10%;
     text-align:center;
     margin-top:0px;
 }
+
   }
   @media only screen and (max-width: 1360px) {
   .box-classic{
@@ -603,11 +613,22 @@ margin-top:10%;
     display: flex;
     flex-direction: column;
     gap: 28px;
+    
+}
+.main-wrapper{
+    width:100%;
+    margin:auto;
+ 
 }
 
   }
 
 @media only screen and (max-width: 600px) {
+    .main-wrapper{
+        width:100%;
+        margin:auto;
+     
+    }
     .box-classic{
         background: #fff 0% 0% no-repeat padding-box;
         box-shadow: 0px 3px 6px #00000029;
