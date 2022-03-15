@@ -364,7 +364,7 @@ line-height:
     box-shadow: 0px 3px 6px #00000029;
     margin-top:70px;
  overflow:hidden;
- max-height:600px;
+ max-height:700px;
 
 
 
@@ -600,7 +600,16 @@ margin-top:10%;
     text-align:center;
     margin-top:0px;
 }
-
+.img-box{
+    width:100%;
+   display:flex;
+   justify-content: center;
+}
+.img-box img{
+    width:50%;
+ 
+ 
+}
   }
   @media only screen and (max-width: 1360px) {
   .box-classic{
@@ -618,6 +627,7 @@ margin-top:10%;
 .main-wrapper{
     width:100%;
     margin:auto;
+    
  
 }
 
